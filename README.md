@@ -33,7 +33,7 @@ We structured from the extracted content to obtain the data elements of interest
 Using GetOldTweets3 we pulled the historic tweets for the chosen 230 users in the time period of 2018-2019. We also constructed a datasheet containing username, tweets, date of diagnosis, time of tweet, number of tweets per user
 
 #### 3. User profiling
-In order to create a portfolio of the chosen users, we used Microsoft Azure FaceClient API to analyze the profile picture of the users to determine the age and gender of the users. To achieve more precision in creating user portfolios, we implemented a Multimodal, Multilingual, and Multi-attribute system ([M3 Inference] https://github.com/euagendas/m3inference))  designed to create demographic information of users from their text. 
+In order to create a portfolio of the chosen users, we used Microsoft Azure FaceClient API to analyze the profile picture of the users to determine the age and gender of the users. To achieve more precision in creating user portfolios, we implemented a Multimodal, Multilingual, and Multi-attribute system: [M3 Inference](https://github.com/euagendas/m3inference), designed to create demographic information of users from their text. 
 
 #### 4. Data cleaning
 We cleaned the tweets (text data) removing stopwords from the texts. We further fine-tuned by lematizing and stemming the text content. 
