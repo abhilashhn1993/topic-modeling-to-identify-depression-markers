@@ -35,7 +35,7 @@ Using GetOldTweets3 we pulled the historic tweets for the chosen 230 users in th
 #### 3. User profiling
 In order to create a portfolio of the chosen users, we used Microsoft Azure FaceClient API to analyze the profile picture of the users to determine the age and gender of the users. To achieve more precision in creating user portfolios, we implemented a Multimodal, Multilingual, and Multi-attribute system (M3 Inference) designed to create demographic information of users from their text. 
 
-#### 3. Data cleaning
+#### 4. Data cleaning
 We cleaned the tweets (text data) removing stopwords from the texts. We further fine-tuned by lematizing and stemming the text content. 
 
 ## TOOLS
