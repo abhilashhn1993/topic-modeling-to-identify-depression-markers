@@ -1,4 +1,4 @@
-### Exploring Depression Markers Over Progression of the Disease: A Machine Learning Approach Using Twitter Data
+## Exploring Depression Markers Over Progression of the Disease: A Machine Learning Approach Using Twitter Data
 A Machine learning based research study which aims at examining and monitoring the various depression markers by analyzing the tweets of various self-declared depression patients on Twitter
 
 ## TABLE OF CONTENTS
